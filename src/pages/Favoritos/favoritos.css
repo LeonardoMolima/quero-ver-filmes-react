@@ -1,0 +1,80 @@
+
+.meus-filmes{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meus-filmes h1{
+    color: #F207B4;
+    margin-bottom: 14px;
+}
+
+.meus-filmes span{
+    color: white;
+    font-size: 18px;
+}
+
+.meus-filmes ul{
+    width: 720px;
+}
+
+.meus-filmes ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.meus-filmes div{
+    width:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.meus-filmes div a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-right: 14px;
+    border: none;
+    outline: none;
+    padding: 9px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background-color:#7C05F2 ;
+}
+
+.meus-filmes div a:hover{
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.meus-filmes button{
+    font-size: 18px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 9px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background-color:#7C05F2 ;
+}
+
+.meus-filmes button:hover{
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.meus-filmes img{
+    width: 120px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.26);
+}
